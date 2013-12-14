@@ -34,7 +34,7 @@ if(isset($word))
     $num_words = 9;
     if($mid < $num_words / 2)
     {
-        $mid = ceil($num_words / 2);
+        $mid = floor($num_words / 2);
     }
     if($mid + ceil($num_words / 2) > count($dictionary))
     {
